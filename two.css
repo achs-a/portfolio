@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: black;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+    flex-shrink: 5;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-grow: 0.4;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.button{
+    background: linear-gradient(to right, #4a0237, #9d09ab, #b30089);
+    color: white;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+.img-div{
+    margin: 30px 0px 30px 380px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%; /* Make the image round */
+    margin-right: 20px; /* Add some space between the image and the details */
+
+}
+/* .img-h1{
+    font-size: 55px;
+    color: ;
+    line-height: 0.9;
+   margin-left: 250px;
+   /* margin-right: 200px; */
+
+.info {
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    line-height: 0.8;
+    margin-bottom: 10px;
+}
+
+.info span {
+    /* margin: 0; */
+}
+.info-p{
+    display: grid;
+place-items: center;
+line-height: 1.2;
+}
+
+.btn {
+  margin-left: 370px;
+  margin-top: 20px;
+}
+
+
+.button-1{
+    background: linear-gradient(to right, #c50eb9f6, #ef943ff2, #e9ac57);
+    color: white;
+    border-radius: 35px;
+    padding: 15px 12px;
+    /* margin-left: 80px; */
+}
+.button-2{
+    background: linear-gradient(to right, #4a0237, #9d09ab, #b30089);
+    color: white;
+    border-radius: 35px;
+    padding: 15px 24px;
+    /* margin-left: 80px; */
+    border-width: none;
+}
+.button-1:hover{
+    border-color: #b30089;
+    border-radius: 35px;
+    border-width: 3px;
+    
+}
+.button-2:hover{
+    border-color: #fff;
+    border-radius: 35px;
+    border-width: 3px;
+    
+}
